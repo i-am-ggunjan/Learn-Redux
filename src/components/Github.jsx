@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchData } from "../features/github/GithubSlice";
+import { fetchData } from "../features/github/githubSlice";
 
 const Github = () => {
   let [searchuser, setSearchuser] = useState("i-am-ggunjan");

@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import showData from "../features/counter/counterSlice";
 import productReducer from "../features/products/productSlice";
-import GithubReducer from "../features/github/GithubSlice";
+import GithubReducer from "../features/github/githubSlice";
 
 export const store = configureStore({
   reducer: {
